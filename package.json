@@ -1,5 +1,8 @@
 {
-  "name": "component-library",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@mritunjayupadhyay"
+  },
+  "name": "@mritunjayupadhyay/component-library",
   "version": "1.0.0",
   "description": "",
   "type": "module",
