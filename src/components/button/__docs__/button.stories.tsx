@@ -1,13 +1,13 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import Example from "./example";
+import ButtonContainer from "./buttonContainer";
 
-const meta: Meta<typeof Example> = {
+const meta: Meta<typeof ButtonContainer> = {
   title: "Button",
-  component: Example,
+  component: ButtonContainer,
 };
 
 export default meta;
-type Story = StoryObj<typeof Example>;
+type Story = StoryObj<typeof ButtonContainer>;
 
 export const Primary: Story = {
   args: {

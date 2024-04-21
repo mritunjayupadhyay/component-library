@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import Button, { ButtonProps } from "../button";
 
-const Example: FC<ButtonProps> = ({
+const ButtonContainer: FC<ButtonProps> = ({
   disabled = false,
   onClick = () => {},
   primary = true,
@@ -28,4 +28,4 @@ const Example: FC<ButtonProps> = ({
   );
 };
 
-export default Example;
+export default ButtonContainer;
