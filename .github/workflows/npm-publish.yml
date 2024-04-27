@@ -25,3 +25,5 @@ jobs:
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.COMPONENT_LIBRARY_AUTH_TOKEN}}
+          NPM_TOKEN: ${{ secrets.COMPONENT_LIBRARY_AUTH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.COMPONENT_LIBRARY_AUTH_TOKEN }}
