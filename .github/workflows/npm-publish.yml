@@ -28,4 +28,4 @@ jobs:
     - name: Publish to npm
       run: npm publish
       env:
-        NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}  # Assumes you have NPM_TOKEN in your repository's secrets
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH }}  # Assumes you have NPM_TOKEN in your repository's secrets
