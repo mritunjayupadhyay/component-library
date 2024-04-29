@@ -23,8 +23,9 @@ jobs:
           PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
               pwd
-              ls -la
               echo "//registry.npmjs.org/:_authToken=${PERSONAL_ACCESS_TOKEN}" > .npmrc
+              ls -la
+              echo "${PERSONAL_ACCESS_TOKEN}"
               npm install
 
       # - name: Publish to npm
