@@ -22,6 +22,7 @@ jobs:
         env:
           PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
+              pwd
               echo "//registry.npmjs.org/:_authToken=${PERSONAL_ACCESS_TOKEN}" > .npmrc
               npm install
 
